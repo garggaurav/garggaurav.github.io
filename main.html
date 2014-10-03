@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <title>Gaurav Garg</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/carousel.css" rel="stylesheet">
+    <style type="text/css"></style>
+
+  </head>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <div class="row-fluid">
+  <div class="span12 offset6">
+  <body background="">
+
+ <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Gaurav Garg</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="blog/index.html">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="carousel-inner">
+  <img src = "assets/images/test.jpg" class="img-responsive center-block">
+</div>
+  <img id = "profile" src = "assets/images/profile.jpg" width="250px" height="250px"  class="img-responsive center-block img-circle"></img>
+  
+  <style type="text/css">
+  #profile {
+   margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  }
+  .navbar-inner {
+    background:transparent;
+  }
+  .glow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .glow:hover, .glow:focus, .glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+  </style>
+
+  <br/>
+  <br/>
+ <div class="container marketing">
+  <div class="row">
+  <div class="col-lg-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300">
+        <img src="assets/images/gaurav.jpg" >
+
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x300">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div
+>
+  <div class="container marketing">
+  <div class="col-md-offset-4 col-md-4 col-md-offset-4">
+    <input type="image" class="glow" src="assets/images/icons/silver/aim.png"/>
+    <input type="image" class="glow" src="assets/images/icons/silver/aim.png"/>
+    <input type="image" class="glow" src="assets/images/icons/silver/aim.png"/>
+    <input type="image" class="glow" src="assets/images/icons/silver/aim.png"/>
+    <input type="image" class="glow" src="assets/images/icons/silver/aim.png"/>
+  </div>
+</div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./orig_files/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+    
+    $(document).ready(function () {
+    var menu = $('.navbar');
+    var origOffsetY = menu.offset().top;
+    function scroll() {
+    if ($(window).scrollTop() >= origOffsetY) {
+        $('.navbar').addClass('navbar-fixed-top');
+        $('.content').addClass('menu-padding');
+    } else {
+        $('.navbar').removeClass('navbar-fixed-top');
+        $('.content').removeClass('menu-padding');
+    }
+   }
+
+  document.onscroll = scroll;
+
+});
+    </script>
+</body>
+</html>
