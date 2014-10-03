@@ -3,3 +3,12 @@
   font-weight: bold;
   font-size: 16px;
 }
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1 {
+  font-size:300%;
+  }
