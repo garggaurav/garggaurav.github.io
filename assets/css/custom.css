@@ -9,6 +9,17 @@ html, html a {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
+@font-face
+{
+    font-family: "BlessedDay";
+    src: url("../fonts/BLESD.otf");
+}
+.blog-title{
+	font-family: "BlessedDay";
+	font-size: 110px;
+}
+
 h1 {
   font-size:300%;
   }
+
