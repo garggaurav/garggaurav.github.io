@@ -1,0 +1,37 @@
+EDUCATION
+University of California, Berkeley                                                                                                                                   Berkeley, CA
+B.S. Electrical Engineering and Computer Science, GPA: 3.22					                                     May 2017
+Relevant Coursework: Data Structures (61B - Java) | Machine Architecture (61C - C, MIPS) | Discrete Math (70) | Linear Algebra (54) | System Programming (162 - C) | Algorithms (170) | Database Systems (186 - SQL, Java) | Artificial Intelligence (188 - Python) | Software Engineering (169 - Ruby)
+Interests: Software Engineering | Backend Web Development | Algorithms & Data Structures
+
+EXPERIENCE
+Goldman Sachs | Summer Technology Analyst						   Jun 2016 – Aug 2016
+•	Wrote data migration tool to automate schema transformation and publishing of team data to firm Data Lake.
+•	Developed in Java, using Spring framework. Used Junit for testing and Swagger for REST calls.
+	
+UpRise | Back End Developer                                                    				   Feb 2016 – Apr 2016
+•	Worked for a non-profit that aims to provide an online community platform for campaign managers and volunteers to co-manage a voter outreach program. http://uprisecampaigns.org
+•	Implemented the app in Ruby on Rails. Worked in an iterative Behavior Driven methodology with Cucumber for testing and writing user stories. Team collaborated using Git.
+
+Infosys | Software Development Intern						                                         Jun 2014 – Aug 2014
+•	Implemented a JavaScript intrusion alert system to detect Cross-site scripting (XSS) attacks on live web applications in real time. 
+•	Achieved by cloning response HTMLs and adding them to a process queue. Deploying headless browsers (PhantomJS) on the server (Tomcat) using JavaServer Pages (JSP). Made an admin portal to view the attack log.
+•	Awarded second runner up at the annual Infosys InStep Business Plan Competition against 122 participants from top universities. Presented on Initiating operations in Colombia and why that is a strategic move.
+
+CITRIS Mobile App Challenge | Mobile App Developer				                                        Feb 2014 – May 2014
+•	Developer at team HandiRoute for the CITRIS Mobile app challenge. HandiRoute is an android application designed to find disabled friendly areas. Achieved by crowdsourcing data and using the Google maps API.
+
+Berkeley Centre for New Media | Full Stack Developer                                                                              Sep 2013 – Feb 2014
+•	Developer for the Web App, Turing Test Tournament. Used MongoDB, Node.js and ExpressJS for backend and Bootstrap for frontend. Wrote a chatbot for the app using ChatScript.
+
+PROJECTS
+Fortune Cookie Sep 2015. Wrote python script to display a ‘Fortune’ by randomly selecting from a filtered list of sentences from The Daily Clog, a blog run by Berkeley. Used Scrapy to crawl and parse the blog’s website.
+
+YouTrends Jun 2015. Developed an Express app to graph video statistics such as view count, like count and like-dislike ratio for YouTube channels. Used YouTube data and HighCharts API. http://youtrends.gauravgarg.me
+
+Cards Against Humanity Mar 2015. Used MeteorJS to develop webapp for the popular multiplayer party game.
+
+Parallelized Breadth First Search Oct 2014. Wrote software to strongly solve a sliding puzzle using BFS traversal to create the game tree. Implemented in MapReduce model using the Apache Spark framework (python), optimized by partitioning and hashing. Ran the implementation on a cluster of AWS EC2 servers. (61C Course project)
+
+SKILLS
+Proficient: Java • Python | Experienced: C • Git • Unix • SQL • Ruby • JavaScript
